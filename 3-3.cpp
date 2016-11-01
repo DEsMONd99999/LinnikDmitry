@@ -18,13 +18,13 @@ void countdoubles()
 	setlocale(0, "");
 	srand(time(NULL));
 	int const N = 16;
-	int array[N] = { 1,2,3,3,5,7,7,7,9,9,9,9,8,8,8,16 };
+	int array[N];
 	int i = 0;
 
 	//init+cout
 	while (i < N)
 	{
-		//array[i] = rand() % 10;
+		array[i] = rand() % 10;
 		cout << array[i] << "   ";
 		i++;
 	}
