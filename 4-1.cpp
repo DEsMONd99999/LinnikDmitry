@@ -16,7 +16,7 @@ int main()
 {
 	setlocale(0, "");
 	srand(time(NULL));
-	int A[MAX_SIZE], B[MAX_SIZE], C[MAX_SIZE*MAX_SIZE];
+	int A[MAX_SIZE], B[MAX_SIZE], C[MAX_SIZE*MAX_SIZE]; //Массив C заготовка под произведение.
 	initArray(A);
 	printArray(A);
 	initArray(B);
