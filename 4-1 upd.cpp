@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <ctime>
 using namespace std;
 
@@ -58,12 +58,12 @@ void printArray(int array[], int temp)
 int sum(int A[], int B[], int C[])
 {
 	int i = 0, temp = 0;
-	while (i < MAX_SIZE)
+	while (i < MAX_SIZE-1)
 	{
 		C[i] = A[i] + B[i] + temp;
 		temp = C[i] / 10;
 		C[i] = C[i] % 10;
 		i++;
 	}
-	return temp;
+	C[i] = A[i] + B[i] + temp;
 }
