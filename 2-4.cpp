@@ -18,7 +18,7 @@ int main()
 	system("pause");
 }
 
-void arraycoup(int raz)
+void arraycoup(int raz)//вообще ни о чем функция... Особенно во второй части....
 {
 	int const N = 8;
 	int array[N];
