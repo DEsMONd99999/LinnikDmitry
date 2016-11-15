@@ -25,7 +25,7 @@ int game()
 	system("pause");
 	system("cls");
 	bool i = 0;
-	while (i == 0)
+	while (i == 0)//тут бесконечный цикл!!! Так и надо писать: while(1){............}
 	{
 		cout << "Ваш ход. Кидайте кубики.\n";
 		system("pause");
