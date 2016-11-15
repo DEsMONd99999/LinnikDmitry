@@ -9,7 +9,7 @@ void arraycoup();
 
 int main()
 {
-	arraycoup();
+	arraycoup();//где вызов функций? Всего одна????
 	system("pause");
 }
 
