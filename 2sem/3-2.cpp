@@ -57,8 +57,6 @@ void give_memory(int**&arr, int N, int M)
 		arr = new int*[N];
 		for (int i = 0; i < N; i++)
 			arr[i] = new int[M];
-		for (int i = 0; i < N; i++)
-			arr[i] = new int[M];
 	}
 	catch (...) 
 	{
