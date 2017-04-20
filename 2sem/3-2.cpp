@@ -43,11 +43,11 @@ void swapStrWithMinMax(int** arr, int N, int M)
 				strWithMax = i;
 			}
 		}
-	}
+	}/* Так было в 1м семестре!!!! Надо указатели на строку использовать!!!!!!!!!!!!!!!!!!!!
 	for (int j = 0; j < M; j++)
 	{
 		swap(arr[strWithMin][j], arr[strWithMax][j]);
-	}
+	}*/
 }
 
 void give_memory(int**&arr, int N, int M)
